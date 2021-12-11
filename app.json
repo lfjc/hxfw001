@@ -1,0 +1,34 @@
+{
+    "name": "hxfw",
+    "description": "",
+    "keywords": [""],
+    "env": {
+        "AUUID": {
+            "description": "UUID",
+            "value": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+        },
+        "CADDYIndexPage": {
+            "description": "CADDY",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "CADDYFILE",
+            "value": "https://raw.githubusercontent.com/lfjc/hxfw/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "ray",
+            "value": "https://raw.githubusercontent.com/lfjc/hxfw/main/etc/ray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "protocols",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "list",
+            "value": "https://raw.githubusercontent.com/lfjc/hxfw/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/lfjc/hxfw",
+    "repository": "https://github.com/lfjc/hxfw",
+    "stack": "container"
+}
